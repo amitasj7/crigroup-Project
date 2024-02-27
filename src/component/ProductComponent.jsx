@@ -4,14 +4,14 @@ import product from "../assets/images/3.png";
 
 const ProductComponent = () => {
   return (
-    <div className="flex flex-col mt-[6rem] px-5">
-      <p className="md:text-2xl font-semibold ">
+    <div className="flex flex-col mt-[6rem] px-5 gap-5">
+      <p className="md:text-2xl  font-semibold ">
         INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY RESULTING
         IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF POWER FOR THE
         NATION.
       </p>
 
-      <div className="px-[11rem] mx-auto my-auto">
+      <div className="md:px-[11rem] px-[2rem] mx-auto my-auto">
         <img
           src={product}
           alt="Products"
