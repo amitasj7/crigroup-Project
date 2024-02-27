@@ -8,7 +8,7 @@ import { TbWorld } from "react-icons/tb";
 const FooterComponent = () => {
   return (
     <div
-      className="text-white flex flex-row justify-around p-12 mt-7"
+      className="text-white flex lg:flex-row flex-col gap-5  items-center justify-around p-12 mt-7"
       style={{ backgroundColor: "rgb(236, 50, 55)" }}
     >
       <a

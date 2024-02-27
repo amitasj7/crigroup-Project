@@ -10,7 +10,7 @@ const TrophyComponent = () => {
   return (
     <div>
       {/*Header */}
-      <div className="w-full flex justify-center   items-start p-8">
+      <div className="w-full flex flex-row justify-center   items-start p-8">
         {/* images */}
         <a href="https://www.crigroups.com/" target="_blank">
           <div className=" h-[10rem] hover:scale-110 transition-all duration-500">
@@ -24,19 +24,21 @@ const TrophyComponent = () => {
       </div>
 
       {/* Trophy */}
-      <div className=" pl-[11rem] flex flex-row justify-between">
+      <div className="flex flex-col lg:flex-row justify-evenly">
         {/* trophy image */}
 
-        <div className="w-[60%] hover:scale-110 transition-all duration-500">
-          <img
-            src={trophy}
-            alt="Trophy Logo"
-            className="w-full h-full object-cover overflow-hidden "
-          />
+        <div className="flex justify-center ">
+          <div className="lg:w-[80%] w-[40%]  hover:scale-110 transition-all duration-500">
+            <img
+              src={trophy}
+              alt="Trophy Logo"
+              className="w-full h-full object-contain overflow-hidden "
+            />
+          </div>
         </div>
 
         {/* award image */}
-        <div className="flex flex-col px-[11rem]  text-2xl font-semibold">
+        <div className="flex flex-col sm:px-[6rem] lg:px-[0.2rem] text-2xl font-semibold">
           <p className="font-bold">
             C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for
             the 4th time.
