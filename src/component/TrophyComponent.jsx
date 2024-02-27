@@ -24,11 +24,11 @@ const TrophyComponent = () => {
       </div>
 
       {/* Trophy */}
-      <div className="flex flex-col lg:flex-row justify-evenly">
+      <div className="flex flex-col md:flex-row justify-evenly">
         {/* trophy image */}
 
         <div className="flex justify-center ">
-          <div className="lg:w-[80%] w-[40%]  hover:scale-110 transition-all duration-500">
+          <div className="md:w-[80%] w-[40%]  hover:scale-110 transition-all duration-500">
             <img
               src={trophy}
               alt="Trophy Logo"
@@ -38,7 +38,7 @@ const TrophyComponent = () => {
         </div>
 
         {/* award image */}
-        <div className="flex flex-col sm:px-[6rem] lg:px-[0.2rem] text-2xl font-semibold">
+        <div className="flex flex-col px-[6rem] md:px-[0.2rem] md:text-2xl font-semibold">
           <p className="font-bold">
             C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for
             the 4th time.
@@ -72,7 +72,7 @@ const TrophyComponent = () => {
             </div>
           </div>
 
-          <p className="text-2xl pr-[11rem]">
+          <p className="md:text-2xl pr-[11rem]">
             Government of India has awarded the
             <span className="font-bold">
               {" "}
