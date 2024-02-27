@@ -72,7 +72,7 @@ const TrophyComponent = () => {
             </div>
           </div>
 
-          <p className="md:text-2xl pr-[11rem]">
+          <p className="md:text-2xl md:pr-[11rem]">
             Government of India has awarded the
             <span className="font-bold">
               {" "}
