@@ -73,10 +73,10 @@ const TrophyComponent = () => {
           </div>
 
           <p className="text-2xl pr-[11rem]">
-            Government of India has awarded the{" "}
+            Government of India has awarded the
             <span className="font-bold">
               {" "}
-              National Energy Conservation Award 2018
+              "National Energy Conservation Award 2018"
             </span>
             . Mr. G. Selvaraj, Joint Managing Director of C.R.I. Group received
             the award from Smt. Sumitra Mahajan, Speaker of Lok Sabha & Shri.
